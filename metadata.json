@@ -1,0 +1,6 @@
+{
+  "name": "DualTube",
+  "description": "Ứng dụng quản lý và phát đồng thời 2 video YouTube độc lập với phím tắt điều khiển nhanh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
