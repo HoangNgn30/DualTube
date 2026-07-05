@@ -162,4 +162,8 @@ async function startServer() {
   });
 }
 
-startServer();
+export default app;
+
+if (!process.env.NETLIFY && !process.env.LAMBDA_TASK_ROOT) {
+  startServer();
+}
